@@ -1,0 +1,76 @@
+
+body     { padding:0; margin:0; font:12px Tahoma, sans-serif;  color:#000; }
+div,p,a,span,em,strong,img,h1,h2,h3,h4,h5,h6,ul,ol,li,dl,dt,dd,table,td,tr,form,fieldset,label,select,checkbox,input,textarea {
+	padding:0;
+	margin:0;
+	outline:none;
+	list-style:none;
+}
+select, input, textarea        { font-size:12px; vertical-align:middle; }
+textarea                       { vertical-align:top; }
+:focus                         { outline:none; }
+input[type=submit]             { cursor:pointer; }
+img, fieldset                  { border:0; }
+table                          { border-collapse:collapse; border-spacing:0; }
+a:link, a:visited              { font:12px Tahoma, sans-serif; color:#000; text-decoration:none;}
+a:hover                        { text-decoration:none; }
+/*-------------------------------------DEFAULT CLASSES------------------------------*/
+.float-r           	           { float:right !important; }
+.float-l                       { float:left !important; }
+.no-float                      { float:none !important; }
+.no-border                     { border:0 !important; }
+.no-bg                         { background:none !important; }
+.no-margin                     { margin:0 !important; }
+.no-padding                    { padding:0 !important; }
+.no-display                    { display:none !important; }
+.display                       { display:block !important; }
+.inline                        { display:inline !important; }
+.overflow                      { overflow:hidden !important; }
+.align-r                       { text-align:right !important; }
+.align-l                       { text-align:left !important; }
+.align-c                       { text-align:center !important; }
+.clear                         { clear:both; }
+
+
+
+
+body {background:#FFF url(../images/3.jpg) repeat-x }
+
+#wrapper { width:790px; height:100%; margin:0 auto; color:#000;}
+
+.img1 { float:left; margin:40px 0 40px 0;}
+
+.one  {
+		width:780px; 
+		height:160px; 
+		margin-left:291px; }
+		
+
+
+a {color:#B4B4B4; float:left; font:16px Arial, Helvetica, sans-serif;}
+a:hover {color:#00CCFF;}
+
+.a {margin:84px 25px 72px 138px;}
+
+.b {margin:84px 23px 72px 25px;}
+
+.c {margin:84px 25px 72px 22px;}
+
+.clean {clear:left;}/*--Отмена обтекания--*/
+
+
+h1 {font-size:25px;  font-family: Arial, Helvetica, sans-serif; color:#000; text-align:left; margin-top:70px; margin-bottom:8px; font-weight:inherit;}
+
+
+.line{  border:none; background-color:#0CF; color:#0CF;
+height:1px;}
+
+p { margin-bottom:10px; margin-top:10px; font-size:16px; 
+font-family:Arial, Helvetica, sans-serif; text-align:justify; color:#444;}
+
+
+.two-jpg { margin-bottom:20px; text-align:center; width:790px; }
+
+h2 {color:#00CCFF; font-weight:lighter; font-size:18px; text-align:left;}
+
+#footer p { font-size:10px; color:#999;}
