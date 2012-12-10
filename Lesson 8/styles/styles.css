@@ -1,0 +1,90 @@
+
+html,body                       { width:100%; height:100%; }
+body                            { padding:0; margin:0; font:12px Tahoma, sans-serif; background:#fff; color:#000; }
+div,p,a,span,em,strong,img,h1,h2,h3,h4,h5,h6,ul,ol,li,dl,dt,dd,table,td,tr,form,fieldset,label,select,checkbox,input,textarea {
+	padding:0;
+	margin:0;
+	outline:none;
+	list-style:none;
+}
+select, input, textarea        { font-size:12px; vertical-align:middle; }
+textarea                       { vertical-align:top; }
+:focus                         { outline:none; }
+input[type=submit]             { cursor:pointer; }
+img, fieldset                  { border:0; }
+table                          { border-collapse:collapse; border-spacing:0; }
+a:link, a:visited              { font:12px Tahoma, sans-serif; color:#000; text-decoration:underline; }
+a:hover                        { text-decoration:none; }
+
+.float-r           	           { float:right !important; }
+.float-l                       { float:left !important; }
+.no-float                      { float:none !important; }
+.no-border                     { border:0 !important; }
+.no-bg                         { background:none !important; }
+.no-margin                     { margin:0 !important; }
+.no-padding                    { padding:0 !important; }
+.no-display                    { display:none !important; }
+.display                       { display:block !important; }
+.inline                        { display:inline !important; }
+.overflow                      { overflow:hidden !important; }
+.align-r                       { text-align:right !important; }
+.align-l                       { text-align:left !important; }
+.align-c                       { text-align:center !important; }
+.clear                         { clear:both; }
+
+
+body { background:url(../images/fonheade.jpg)  repeat-x #fff;}
+
+#wrapper { width:900px; margin:0 auto; overflow:hidden;}
+
+#header{ height:108px; overflow:hidden;}
+
+#header  .navi .activs a { color:#E21D5D;}
+
+.head { margin-top:19px; float:left;}
+
+#header .one { margin:44px 75px 0 94px; float:left;}
+
+#header .one li { float:left; padding: 0 7px;}
+
+#header .navi { padding-top:49px;}
+
+#header .navi li { float:left; padding:0 0 0 15px;}
+
+#header .navi li a { color:#396375; font-size:15.28px; text-decoration:none;}
+
+#header .navi li a:hover { color:#E21D5D;}
+
+h2 { color:#4B7589; font-size:55.56px; border-bottom: 1px solid  #A7C3CF; padding:31px 0 24px;}
+
+#content { overflow:hidden;}
+
+#content ul { padding:28px 0 36px 0;}
+
+#content h3 { width:145px; color:#EA2778; font-size:27.78px; float:left; margin:45px 0 0 62px; line-height:30px;}
+
+#content span { color:#F3753E; font-size:12.5px; float:right;}
+
+#content li { height:182px; padding-top:15px;}
+
+#content img { margin-left:42px;}
+
+
+#content p { width:450px; color:#4B7589; font-size:15.28; font-family:Arial, Helvetica, sans-serif; float:right; margin:39px 20px 0 0;}
+
+#content .left p {float:left; text-align:right;}
+
+#content .left h3
+ {float:right; text-align:left; margin-right:31px}
+ 
+ 
+#footer { border-top: 1px solid #A7C3CF; padding-top:18px;}
+
+#footer li {float:left; margin:0 0 20px 20px;}
+
+#footer li a { text-decoration:none;}
+#footer li a:hover { color:#F95C4E;}
+
+#footer .active a { color:#F95C4E;}
+
+span { color:#A7C3CF; float:right; font-size:11.11px; font-family:Arial;}

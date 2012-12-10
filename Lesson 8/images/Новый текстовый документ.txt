@@ -1,0 +1,11 @@
+ <a href="index.html"><img src="images/b.jpg"></a>
+      <a href="index.html"><img src="images/p.jpg"></a>
+       <a href="index.html"><img src="images/v.jpg"></a>
+        <a href="index.html"><img src="images/y.jpg"></a>
+
+ <ul class="two">
+    	<li><a href="index.html">Главная</a></li>
+        <li><a href="index.html">О GeekHub</a></li>
+        <li><a href="index.html">Команда</a></li>
+        <li><a href="index.html">Контакты</a></li>
+    </ul>
